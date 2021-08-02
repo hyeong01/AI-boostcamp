@@ -26,3 +26,7 @@
    print(f'{n:.3f}')
    >>> 0.123
 ```
+
+# 2. String Manipulation
+- Python has a powerful edge over other languages in terms of string manipulation due to its built-in functions. Knowing the capabilites and the functions of Python is important to use Python up to it full potential
+```
