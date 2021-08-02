@@ -112,7 +112,7 @@
    * more efficient than list
    * supports all functions for list
 # 5. Pythonic Code
-- This was the most impressive part of the lecture. I found out that I naturally adopted such pythonic syntaxes while trying to make my coding more concise and efficent
+- This was the most impressive part of the lecture. I found out that I naturally adopted some pythonic syntaxes while trying to make my coding more concise and efficent
 - Pythonic Code is usually shorter and faster
 ## a. split and join
 ```
@@ -123,6 +123,10 @@
 'python java javascript'
 ```
 ## b. list comprehension
+```
+>>> even_under10 = [i for i in range(10) if i % 2== 0]
+>>> even_under10
+[0, 2, 4, 6, 8,]
 ```
 
 
