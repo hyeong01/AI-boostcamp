@@ -1,1 +1,1 @@
-# AI-boostcourse
+# AI-boostcamp
