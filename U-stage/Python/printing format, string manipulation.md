@@ -59,3 +59,21 @@
 ```
    print(r'Hello \n World!")
    >>> 'Hello \n World!"
+
+# 3. Function
+## a. Function Type Hints
+- Type is specified, thus better statbility of the system
+- Better documentation
+- Can debug before running the program using editors such as mypy, IDE, and linter
+```
+   def f(var: str) -> str:
+      return var + '!'
+```
+## b. docstring
+- Better documentation
+```
+   def sqaure(x):
+   '''Returns the sqaure of x'''
+   return x**2
+```
+
