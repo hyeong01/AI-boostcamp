@@ -12,3 +12,11 @@
    print(f"{name:>10}")
    >>>         JK
 ```
+- adding multiple letters
+```
+   print(f"{name:*>5}")
+   >>>*****JK
+   print(f"{name:*^10}")
+   >>>*****JK*****
+```
+- 
