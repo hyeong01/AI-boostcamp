@@ -28,5 +28,34 @@
 ```
 
 # 2. String Manipulation
-- Python has a powerful edge over other languages in terms of string manipulation due to its built-in functions. Knowing the capabilites and the functions of Python is important to use Python up to it full potential
+- Python has a powerful edge over other languages in terms of string manipulation due to its built-in functions. Knowing the capabilites and the functions of Python is important to use Python up to its full potential. 
+- Below are some useful functions that I am not used to using
 ```
+   s = 'hello world'
+   s.capitalize()
+   >>> 'Hello world'
+   
+   s.title()
+   >>> 'Hello World'
+   
+   s.find('W')
+   >>> 6
+   
+   s.startswith('hel')
+   >>> True
+   
+   s.endswith('rld')
+   >>> True
+   
+   s = ' hello world '
+   s.strip()
+   >>> 'hello world'
+   
+   s = ' hello world '
+   s.rstrip()
+   >>> ' hello world'
+```
+- You can put r before a string to not use escape symbol and instead print it
+```
+   print(r'Hello \n World!")
+   >>> 'Hello \n World!"
