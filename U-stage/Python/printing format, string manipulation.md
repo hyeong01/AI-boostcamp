@@ -59,7 +59,7 @@
 ```
    print(r'Hello \n World!")
    >>> 'Hello \n World!"
-
+```
 # 3. Function
 ## a. Function Type Hints
 - Type is specified, thus better statbility of the system
