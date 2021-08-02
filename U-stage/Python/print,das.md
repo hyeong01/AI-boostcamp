@@ -3,5 +3,5 @@
 ```name = 'JK'
    age = '39'
    print(f"Hello, {name}. Are you {age} years old?")
+   >>> Hello, JK. Are you 39 years old?
 ```
->>> Hello, JK. Are you 39 years old?
