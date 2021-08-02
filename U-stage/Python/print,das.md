@@ -7,11 +7,13 @@
    print(f"Hello, {name}. Are you {age} years old?")
    >>> Hello, JK. Are you 39 years old?
 ```
+
 - Left align is the default. To right align, write
 ```
    print(f"{name:>10}")
    >>>         JK
 ```
+
 - adding multiple letters
 ```
    print(f"{name:*>5}")
