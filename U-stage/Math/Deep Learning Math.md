@@ -9,5 +9,6 @@
   * According to universal approximation theorem, even two-layer neural network can approximate any continous function. However, having more layers allow the model to have less nodes and thus train faster for the same task.
 # 2. How Does a Neural Network Train: Back Propagation
 * Training == changing the weight of the neural network so that the loss decreases
-* ![image](https://user-images.githubusercontent.com/38185429/128058714-1705d4d2-282c-48a8-acfc-99c4a6aeb3d1.png)
+* If ![image](https://user-images.githubusercontent.com/38185429/128058714-1705d4d2-282c-48a8-acfc-99c4a6aeb3d1.png) is negative then increasing W to an adequate amount will likely decrease the loss. Do the same process for all elements if W is a vector.
+* However, ![image](https://user-images.githubusercontent.com/38185429/128058714-1705d4d2-282c-48a8-acfc-99c4a6aeb3d1.png) cannot be calculated on spot. L a function of O, O is a function of H, H in function of Z, ... and Z is a function of W. This is why Why we need a chain rule: ![image](https://user-images.githubusercontent.com/38185429/128059638-47d51eac-dafd-4061-a8cf-56eb6a62b829.png)
 * https://github.com/hyeong01/AI-boostcamp/blob/main/U-stage/Math/images/backpropagation.PNG
